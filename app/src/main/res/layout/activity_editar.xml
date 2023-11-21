@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddActivity">
+
+        <ImageView
+            android:id="@+id/foto1"
+            android:layout_width="177dp"
+            android:layout_height="162dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.547"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.026"
+            app:srcCompat="@drawable/usuario" />
+
+        <EditText
+            android:id="@+id/txt_nombre1"
+            android:layout_width="276dp"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.759"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.413" />
+
+        <EditText
+            android:id="@+id/txt_telefono1"
+            android:layout_width="276dp"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.755"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.511" />
+
+        <EditText
+            android:id="@+id/txt_longitud1"
+            android:layout_width="134dp"
+            android:layout_height="47dp"
+            android:ems="10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.303"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.622" />
+
+        <EditText
+            android:id="@+id/txt_latitud1"
+            android:layout_width="134dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.88"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.623" />
+
+        <ImageView
+            android:layout_width="49dp"
+            android:layout_height="39dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.046"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.423"
+            app:srcCompat="@drawable/nombre" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="38dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.046"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.624"
+            app:srcCompat="@drawable/ubicacion" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="56dp"
+            android:layout_height="43dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.047"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.517"
+            app:srcCompat="@drawable/phone" />
+
+        <Button
+            android:id="@+id/btn_guardar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GUARDAR"
+            app:icon="@drawable/guardar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.775" />
+
+        <Button
+            android:id="@+id/btnVolver1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCELAR"
+            app:icon="@drawable/cancel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.875"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.775" />
+
+        <ImageButton
+            android:id="@+id/btnFoto2"
+            android:layout_width="55dp"
+            android:layout_height="51dp"
+            android:backgroundTint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.517"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.273"
+            app:srcCompat="@drawable/addphoto" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="49dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423"
+        app:srcCompat="@drawable/nombre" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="55dp"
+        android:layout_height="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624"
+        app:srcCompat="@drawable/ubicacion" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="56dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517"
+        app:srcCompat="@drawable/phone" />
+
+
+    <Button
+        android:id="@+id/btnVolver3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANCELAR"
+        app:icon="@drawable/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
